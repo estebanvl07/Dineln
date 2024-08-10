@@ -2,6 +2,7 @@
   "expo": {
     "name": "Dineln",
     "slug": "Dineln",
+    "scheme": "dineln",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +22,9 @@
       }
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-font", "expo-router"]
   }
 }
